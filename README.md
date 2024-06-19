@@ -1,8 +1,49 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+surat_jalan/
+├── public/
+│   ├── index.html
+│   ├── favicon.ico
+│   └── ...
+├── src/
+│   ├── assets/
+│   │   ├── images/
+│   │   ├── styles/
+│   │   └── ...
+│   ├── components/
+│   │   ├── common/
+│   │   ├── layout/
+│   │   └── ...
+│   ├── hooks/
+│   │   └── ...
+│   ├── pages/
+│   │   ├── Home/
+│   │   │   ├── Home.js
+│   │   │   ├── Home.css
+│   │   │   └── ...
+│   │   └── ...
+│   ├── redux/
+│   │   ├── actions/
+│   │   │   └── exampleActions.js
+│   │   ├── reducers/
+│   │   │   ├── index.js
+│   │   │   └── exampleReducer.js
+│   │   ├── store.js
+│   │   └── ...
+│   ├── routes/
+│   │   └── AppRoutes.js
+│   ├── services/
+│   │   ├── api/
+│   │   └── cache/
+│   │       └── cacheService.js
+│   ├── utils/
+│   │   └── ...
+│   ├── App.js
+│   ├── App.css
+│   ├── index.js
+│   └── ...
+├── tests/
+│   ├── __tests__/
+│   └── __mocks__
+├── .env
+├── package.json
+├── package-lock.json
+└── README.md
