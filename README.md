@@ -1,3 +1,10 @@
+# surat_jalan
+
+Ini adalah proyek React.js dengan struktur direktori yang terorganisir untuk memudahkan pengembangan dan pemeliharaan aplikasi. Berikut adalah penjelasan dari setiap folder dan file yang ada di dalam proyek ini.
+
+## Struktur Direktori
+
+```plaintext
 surat_jalan/
 ├── public/
 │   ├── index.html
